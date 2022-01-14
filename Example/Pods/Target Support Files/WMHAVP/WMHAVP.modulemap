@@ -1,0 +1,6 @@
+framework module WMHAVP {
+  umbrella header "WMHAVP-umbrella.h"
+
+  export *
+  module * { export * }
+}

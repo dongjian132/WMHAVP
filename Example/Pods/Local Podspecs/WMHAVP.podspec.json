@@ -1,0 +1,22 @@
+{
+  "name": "WMHAVP",
+  "version": "0.1.0",
+  "summary": "WMHAVP组件库",
+  "description": "TODO: Add long description of the pod here.\n威马项目中的WMHAVP是核心停泊电动车的一个功能，包括了视频教程和各种蓝牙和网络控制，总之，使用了威马后，你的生活更智能，出行更方便了，感谢大家的使用，这里不做更多介绍了。",
+  "homepage": "https://github.com/13260444370@163.com/WMHAVP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13260444370@163.com": "jian1.dong@wm-motor.com"
+  },
+  "source": {
+    "git": "https://github.com/13260444370@163.com/WMHAVP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "WMHAVP/Classes/**/*"
+}
