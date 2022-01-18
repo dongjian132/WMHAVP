@@ -18,7 +18,12 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "WMHAVP/Classes/**/*",
+  "source_files": "WMHAVP/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "WMHAVP": [
+      "WMHAVP/Assets/btn_havplive_video@2x.png"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "MapKit",

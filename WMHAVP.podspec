@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   
   # source_files
-  s.source_files = 'WMHAVP/Classes/**/*'
+  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
   
 #  s.subspec 'Extention&Category' do |sp|
 #    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
@@ -44,9 +44,9 @@ TODO: Add long description of the pod here.
 #  end
   
   # resource_bundles
-#  s.resource_bundles = {
-#     'WMHAVP' => ['WMHAVP/Assets/*.png']
-#  }
+  s.resource_bundles = {
+     'WMHAVP' => ['WMHAVP/Assets/btn_havplive_video@2x.png']
+  }
   # public_header_files
 #  s.public_header_files = 'WMHAVP/Classes/**/*.h'
   # frameworks
