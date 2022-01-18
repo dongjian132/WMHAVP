@@ -33,10 +33,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   
   # source_files
-  s.source_files = 'WMHAVP/Classes/**/*'
+#  s.source_files = 'WMHAVP/Classes/**/*'
+#  s.source_files = 'WMHAVP/**/*.{h,m}'
+  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
   # resource_bundles
   s.resource_bundles = {
-     'WMHAVP' => ['WMHAVP/Assets/*.png'],
+     'WMHAVP' => ['WMHAVP/Assets/*.png']
   }
   # public_header_files
   s.public_header_files = 'WMHAVP/Classes/**/*.h'
