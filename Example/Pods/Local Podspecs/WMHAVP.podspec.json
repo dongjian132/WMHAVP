@@ -18,8 +18,7 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "WMHAVP/Classes/**/*.h",
-  "public_header_files": "WMHAVP/Classes/**/*.h",
+  "source_files": "WMHAVP/Classes/**/*",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -44,11 +43,11 @@
   "subspecs": [
     {
       "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/Extention&Category"
+      "source_files": "WMHAVP/Classes/Extention&Category/**/*"
     },
     {
       "name": "Macros",
-      "source_files": "WMHAVP/Classes/Macros"
+      "source_files": "WMHAVP/Classes/Macros/**/*"
     }
   ]
 }

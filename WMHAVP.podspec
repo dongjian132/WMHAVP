@@ -33,14 +33,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   
   # source_files
-  s.source_files = 'WMHAVP/Classes/**/*.h'
+  s.source_files = 'WMHAVP/Classes/**/*'
   
   s.subspec 'Extention&Category' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Extention&Category'
+    sp.source_files = 'WMHAVP/Classes/Extention&Category/**/*'
   end
   
   s.subspec 'Macros' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Macros'
+    sp.source_files = 'WMHAVP/Classes/Macros/**/*'
   end
   
   # resource_bundles
@@ -48,7 +48,7 @@ TODO: Add long description of the pod here.
 #     'WMHAVP' => ['WMHAVP/Assets/*.png']
 #  }
   # public_header_files
-  s.public_header_files = 'WMHAVP/Classes/**/*.h'
+#  s.public_header_files = 'WMHAVP/Classes/**/*.h'
   # frameworks
   s.frameworks = 'UIKit', 'MapKit', 'WebKit', 'Photos', 'PhotosUI', 'QuartzCore', 'CoreData', 'CFNetwork'
   # 依赖库
