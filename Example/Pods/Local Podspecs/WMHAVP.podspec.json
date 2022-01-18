@@ -43,11 +43,11 @@
   "subspecs": [
     {
       "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/Extention&Category/**/*"
+      "source_files": "WMHAVP/Classes/Extention&Category"
     },
     {
       "name": "Macros",
-      "source_files": "WMHAVP/Classes/Macros/**/*"
+      "source_files": "WMHAVP/Classes/Macros"
     }
   ]
 }

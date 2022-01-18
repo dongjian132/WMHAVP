@@ -36,11 +36,11 @@ TODO: Add long description of the pod here.
   s.source_files = 'WMHAVP/Classes/**/*'
   
   s.subspec 'Extention&Category' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Extention&Category/**/*'
+    sp.source_files = 'WMHAVP/Classes/Extention&Category'
   end
   
   s.subspec 'Macros' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Macros/**/*'
+    sp.source_files = 'WMHAVP/Classes/Macros'
   end
   
   # resource_bundles
