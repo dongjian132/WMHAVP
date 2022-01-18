@@ -36,17 +36,17 @@ TODO: Add long description of the pod here.
   s.source_files = 'WMHAVP/Classes/**/*.h'
   
   s.subspec 'Extention&Category' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Extention&Category/**/*.{h,m}'
+    sp.source_files = 'WMHAVP/Classes/Extention&Category'
   end
   
   s.subspec 'Macros' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Macros/**/*.{h,m}'
+    sp.source_files = 'WMHAVP/Classes/Macros'
   end
   
   # resource_bundles
-  s.resource_bundles = {
-     'WMHAVP' => ['WMHAVP/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#     'WMHAVP' => ['WMHAVP/Assets/*.png']
+#  }
   # public_header_files
   s.public_header_files = 'WMHAVP/Classes/**/*.h'
   # frameworks

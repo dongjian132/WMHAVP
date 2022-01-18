@@ -19,11 +19,6 @@
     "ios": "11.0"
   },
   "source_files": "WMHAVP/Classes/**/*.h",
-  "resource_bundles": {
-    "WMHAVP": [
-      "WMHAVP/Assets/*.png"
-    ]
-  },
   "public_header_files": "WMHAVP/Classes/**/*.h",
   "frameworks": [
     "UIKit",
@@ -49,11 +44,11 @@
   "subspecs": [
     {
       "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/Extention&Category/**/*.{h,m}"
+      "source_files": "WMHAVP/Classes/Extention&Category"
     },
     {
       "name": "Macros",
-      "source_files": "WMHAVP/Classes/Macros/**/*.{h,m}"
+      "source_files": "WMHAVP/Classes/Macros"
     }
   ]
 }
