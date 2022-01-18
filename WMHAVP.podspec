@@ -33,14 +33,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   
   # source_files
-  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
+  s.source_files = 'WMHAVP/Classes/**/*.h'
   
   s.subspec 'Extention&Category' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Extention&Category'
+    sp.source_files = 'WMHAVP/Classes/Extention&Category/**/*.{h,m}'
   end
   
   s.subspec 'Macros' do |sp|
-    sp.source_files = 'WMHAVP/Classes/Macros'
+    sp.source_files = 'WMHAVP/Classes/Macros/**/*.{h,m}'
   end
   
   # resource_bundles
