@@ -28,16 +28,26 @@ TODO: Add long description of the pod here.
   s.author           = { '13260444370@163.com' => 'jian1.dong@wm-motor.com' }
   s.source           = { :git => 'https://github.com/dongjian132/WMHAVP.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '11.0'
-
-  s.source_files = 'WMHAVP/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WMHAVP' => ['WMHAVP/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #deployment_target
+  s.ios.deployment_target = '11.0'
+  
+  # source_files
+  s.source_files = 'WMHAVP/Classes/**/*'
+  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
+  # resource_bundles
+  s.resource_bundles = {
+     'WMHAVP_image' => ['WMHAVP/Assets/*.png'],
+     'WMHAVP_xib' => ['WMHAVP/Assets/*.xib'],
+     'WMHAVP_bundle' => ['WMHAVP/Assets/*.bundle'],
+  }
+  # public_header_files
+  s.public_header_files = 'WMHAVP/Classes/**/*.h'
+  # frameworks
+  s.frameworks = 'UIKit', 'MapKit', 'WebKit', 'Photos', 'PhotosUI', 'QuartzCore', 'CoreData', 'CFNetwork'
+  # 依赖库
+  s.dependency 'AFNetworking','4.0.1'
+  s.dependency 'SDWebImage','5.9.5'
+  s.dependency 'Masonry','1.1.0'
+  
 end

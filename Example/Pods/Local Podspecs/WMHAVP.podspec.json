@@ -18,5 +18,38 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "WMHAVP/Classes/**/*"
+  "source_files": "WMHAVP/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "WMHAVP_image": [
+      "WMHAVP/Assets/*.png"
+    ],
+    "WMHAVP_xib": [
+      "WMHAVP/Assets/*.xib"
+    ],
+    "WMHAVP_bundle": [
+      "WMHAVP/Assets/*.bundle"
+    ]
+  },
+  "public_header_files": "WMHAVP/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "WebKit",
+    "Photos",
+    "PhotosUI",
+    "QuartzCore",
+    "CoreData",
+    "CFNetwork"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "SDWebImage": [
+      "5.9.5"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ]
+  }
 }

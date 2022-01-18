@@ -10,8 +10,10 @@
 #endif
 #endif
 
+#import "NSDate+Category.h"
 #import "CommonMacros.h"
 #import "FontAndColorMacros.h"
+#import "WMHAVP.h"
 
 FOUNDATION_EXPORT double WMHAVPVersionNumber;
 FOUNDATION_EXPORT const unsigned char WMHAVPVersionString[];
