@@ -35,13 +35,13 @@ TODO: Add long description of the pod here.
   # source_files
   s.source_files = 'WMHAVP/Classes/**/*'
   
-  s.subspec 'Extention&Category' do |sp|
-    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
-  end
-  
-  s.subspec 'Macros' do |sp|
-    sp.source_files = 'WMHAVP/Classes/CommonMacros.h', 'WMHAVP/Classes/FontAndColorMacros.h'
-  end
+#  s.subspec 'Extention&Category' do |sp|
+#    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
+#  end
+#
+#  s.subspec 'Macros' do |sp|
+#    sp.source_files = 'WMHAVP/Classes/CommonMacros.h', 'WMHAVP/Classes/FontAndColorMacros.h'
+#  end
   
   # resource_bundles
 #  s.resource_bundles = {

@@ -39,18 +39,5 @@
     "Masonry": [
       "1.1.0"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/NSDate+Category.{h,m}"
-    },
-    {
-      "name": "Macros",
-      "source_files": [
-        "WMHAVP/Classes/CommonMacros.h",
-        "WMHAVP/Classes/FontAndColorMacros.h"
-      ]
-    }
-  ]
+  }
 }
