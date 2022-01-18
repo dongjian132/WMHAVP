@@ -22,6 +22,16 @@ PODS:
     - AFNetworking (= 4.0.1)
     - Masonry (= 1.1.0)
     - SDWebImage (= 5.9.5)
+    - "WMHAVP/Extention&Category (= 0.1.1)"
+    - WMHAVP/Macros (= 0.1.1)
+  - "WMHAVP/Extention&Category (0.1.1)":
+    - AFNetworking (= 4.0.1)
+    - Masonry (= 1.1.0)
+    - SDWebImage (= 5.9.5)
+  - WMHAVP/Macros (0.1.1):
+    - AFNetworking (= 4.0.1)
+    - Masonry (= 1.1.0)
+    - SDWebImage (= 5.9.5)
 
 DEPENDENCIES:
   - WMHAVP (from `../`)
@@ -40,7 +50,7 @@ SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
-  WMHAVP: bea05414743e46a80adbf9edfd1199a417787670
+  WMHAVP: 01a81def76bd0f16b3e495edd1f1b690446f54a4
 
 PODFILE CHECKSUM: 615218574790b2543170e129faed8b9df9e08a65
 
