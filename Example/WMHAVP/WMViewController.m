@@ -33,7 +33,7 @@
     bundleURL = [bundleURL URLByAppendingPathExtension:@"framework"];
     if (bundleURL) {
         NSBundle *imgBundle = [NSBundle bundleWithURL:bundleURL];
-        bundleURL = [imgBundle URLForResource:@"WMHAVP_image" withExtension:@"bundle"];
+        bundleURL = [imgBundle URLForResource:@"WMHAVP" withExtension:@"bundle"];
         if (bundleURL) {
             NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
             icon.image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"btn_havplive_video@2x.png" ofType:nil]];

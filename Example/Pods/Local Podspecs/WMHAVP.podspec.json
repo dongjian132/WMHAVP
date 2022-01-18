@@ -20,14 +20,8 @@
   },
   "source_files": "WMHAVP/Classes/**/*.{h,m}",
   "resource_bundles": {
-    "WMHAVP_image": [
+    "WMHAVP": [
       "WMHAVP/Assets/*.png"
-    ],
-    "WMHAVP_xib": [
-      "WMHAVP/Assets/*.xib"
-    ],
-    "WMHAVP_bundle": [
-      "WMHAVP/Assets/*.bundle"
     ]
   },
   "public_header_files": "WMHAVP/Classes/**/*.h",
