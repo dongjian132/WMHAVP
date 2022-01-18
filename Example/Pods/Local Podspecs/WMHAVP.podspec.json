@@ -43,11 +43,14 @@
   "subspecs": [
     {
       "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/Extention&Category"
+      "source_files": "WMHAVP/Classes/NSDate+Category.{h,m}"
     },
     {
       "name": "Macros",
-      "source_files": "WMHAVP/Classes/Macros"
+      "source_files": [
+        "WMHAVP/Classes/CommonMacros.h",
+        "WMHAVP/Classes/FontAndColorMacros.h"
+      ]
     }
   ]
 }
