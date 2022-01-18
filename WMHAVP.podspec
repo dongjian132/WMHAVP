@@ -34,7 +34,6 @@ TODO: Add long description of the pod here.
   
   # source_files
   s.source_files = 'WMHAVP/Classes/**/*'
-  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
   # resource_bundles
   s.resource_bundles = {
      'WMHAVP' => ['WMHAVP/Assets/*.png'],
