@@ -21,9 +21,10 @@
   "source_files": "WMHAVP/Classes/**/*",
   "resource_bundles": {
     "WMHAVP": [
-      "WMHAVP/Assets/btn_havplive_video@2x.png"
+      "WMHAVP/Assets/*.png"
     ]
   },
+  "public_header_files": "WMHAVP/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit",
@@ -35,8 +36,27 @@
     "CFNetwork"
   ],
   "dependencies": {
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "SDWebImage": [
+      "5.9.5"
+    ],
     "Masonry": [
       "1.1.0"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Extention&Category",
+      "source_files": "WMHAVP/Classes/NSDate+Category.{h,m}"
+    },
+    {
+      "name": "Macros",
+      "source_files": [
+        "WMHAVP/Classes/CommonMacros.h",
+        "WMHAVP/Classes/FontAndColorMacros.h"
+      ]
+    }
+  ]
 }

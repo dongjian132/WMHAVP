@@ -35,25 +35,25 @@ TODO: Add long description of the pod here.
   # source_files
   s.source_files = 'WMHAVP/Classes/**/*'
   
-#  s.subspec 'Extention&Category' do |sp|
-#    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
-#  end
-#
-#  s.subspec 'Macros' do |sp|
-#    sp.source_files = 'WMHAVP/Classes/CommonMacros.h', 'WMHAVP/Classes/FontAndColorMacros.h'
-#  end
+  s.subspec 'Extention&Category' do |sp|
+    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
+  end
+
+  s.subspec 'Macros' do |sp|
+    sp.source_files = 'WMHAVP/Classes/CommonMacros.h', 'WMHAVP/Classes/FontAndColorMacros.h'
+  end
   
   # resource_bundles
   s.resource_bundles = {
-     'WMHAVP' => ['WMHAVP/Assets/btn_havplive_video@2x.png']
+     'WMHAVP' => ['WMHAVP/Assets/*.png']
   }
   # public_header_files
-#  s.public_header_files = 'WMHAVP/Classes/**/*.h'
+  s.public_header_files = 'WMHAVP/Classes/**/*.h'
   # frameworks
   s.frameworks = 'UIKit', 'MapKit', 'WebKit', 'Photos', 'PhotosUI', 'QuartzCore', 'CoreData', 'CFNetwork'
   # 依赖库
-#  s.dependency 'AFNetworking','4.0.1'
-#  s.dependency 'SDWebImage','5.9.5'
+  s.dependency 'AFNetworking','4.0.1'
+  s.dependency 'SDWebImage','5.9.5'
   s.dependency 'Masonry','1.1.0'
   
 end
