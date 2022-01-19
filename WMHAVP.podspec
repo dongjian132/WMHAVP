@@ -45,7 +45,7 @@ TODO: Add long description of the pod here.
   
   # resource_bundles
   s.resource_bundles = {
-     'WMHAVP' => ['WMHAVP/Assets/*.png']
+     'WMHAVP' => ['WMHAVP/Assets/btn_havplive_video@2x.png']
   }
   # public_header_files
   s.public_header_files = 'WMHAVP/Classes/**/*.h'
