@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WMHAVP'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'WMHAVP组件库'
 
 # This description is used to generate tags and improve search results.
@@ -34,15 +34,15 @@ TODO: Add long description of the pod here.
   
   # source_files
   s.source_files = 'WMHAVP/Classes/**/*'
-#
-#  s.subspec 'Extention&Category' do |sp|
-#    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
-#  end
-#
-#  s.subspec 'Macros' do |sp|
-#    sp.source_files = 'WMHAVP/Classes/CommonMacros.h', 'WMHAVP/Classes/FontAndColorMacros.h'
-#  end
-#
+
+  s.subspec 'Extention&Category' do |sp|
+    sp.source_files = 'WMHAVP/Classes/Extention&Category/*.{h,m}'
+  end
+
+  s.subspec 'Macros' do |sp|
+    sp.source_files = 'WMHAVP/Classes/Macros/*.{h,m}'
+  end
+
   # resource_bundles
   s.resource_bundles = {
      'WMHAVP' => ['WMHAVP/Assets/btn_havplive_video@2x.png']
