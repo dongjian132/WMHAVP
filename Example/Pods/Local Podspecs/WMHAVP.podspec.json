@@ -21,7 +21,7 @@
   "source_files": "WMHAVP/Classes/**/*",
   "resource_bundles": {
     "WMHAVP": [
-      "WMHAVP/Assets/*.png"
+      "WMHAVP/Assets/btn_havplive_video@2x.png"
     ]
   },
   "public_header_files": "WMHAVP/Classes/**/*.h",
@@ -45,18 +45,5 @@
     "Masonry": [
       "1.1.0"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Extention&Category",
-      "source_files": "WMHAVP/Classes/NSDate+Category.{h,m}"
-    },
-    {
-      "name": "Macros",
-      "source_files": [
-        "WMHAVP/Classes/CommonMacros.h",
-        "WMHAVP/Classes/FontAndColorMacros.h"
-      ]
-    }
-  ]
+  }
 }
