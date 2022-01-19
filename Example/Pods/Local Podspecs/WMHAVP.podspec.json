@@ -21,7 +21,7 @@
   "source_files": "WMHAVP/Classes/**/*",
   "resource_bundles": {
     "WMHAVP": [
-      "WMHAVP/Assets/btn_havplive_video@2x.png"
+      "WMHAVP/Assets/*.png"
     ]
   },
   "public_header_files": "WMHAVP/Classes/**/*.h",
