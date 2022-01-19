@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
   
   # source_files
-  s.source_files = 'WMHAVP/Classes/**/*.{h,m}'
+  s.source_files = 'WMHAVP/Classes/**/*'
   
 #  s.subspec 'Extention&Category' do |sp|
 #    sp.source_files = 'WMHAVP/Classes/NSDate+Category.{h,m}'
@@ -52,8 +52,8 @@ TODO: Add long description of the pod here.
   # frameworks
   s.frameworks = 'UIKit', 'MapKit', 'WebKit', 'Photos', 'PhotosUI', 'QuartzCore', 'CoreData', 'CFNetwork'
   # 依赖库
-  s.dependency 'AFNetworking','4.0.1'
-  s.dependency 'SDWebImage','5.9.5'
+#  s.dependency 'AFNetworking','4.0.1'
+#  s.dependency 'SDWebImage','5.9.5'
   s.dependency 'Masonry','1.1.0'
   
 end
